@@ -1,0 +1,55 @@
+html{
+    background-color: black;
+}
+.father{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bindsom{
+    color: rgb(0, 216, 240);
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    border: 1px solid rgb(0, 213, 255);
+    width: 70vw;
+    
+}
+
+.show{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.NameL{
+    margin-left: -28rem;
+}
+.NameL2{
+    margin-left: -26rem ;
+}
+.TxtForm{
+    background-color: black;
+    border: 1px solid rgb(7, 169, 233);
+    width: 30rem;
+    color: rgb(0, 217, 255);
+}
+
+.NumberAge{
+    width: 30rem;
+    background-color: black;
+    border: 1px solid rgb(0, 176, 207);
+    color: aqua;
+}
+.finnalbtn{
+    margin-left:-26rem ;
+    width: 67px;
+    background-color: rgb(0, 213, 255);
+}
+
+.show{
+    color: lightblue;
+}
