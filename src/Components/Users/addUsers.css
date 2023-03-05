@@ -26,27 +26,27 @@ html{
 }
 
 .NameL{
-    margin-left: -28rem;
+    margin-left: -80%;
 }
 .NameL2{
-    margin-left: -26rem ;
+    margin-left: -75% ;
 }
 .TxtForm{
     background-color: black;
     border: 1px solid rgb(7, 169, 233);
-    width: 30rem;
+    width: 90%;
     color: rgb(0, 217, 255);
 }
 
 .NumberAge{
-    width: 30rem;
+    width: 90%;
     background-color: black;
     border: 1px solid rgb(0, 176, 207);
     color: aqua;
 }
 .finnalbtn{
-    margin-left:-26rem ;
-    width: 67px;
+    margin-left:-80% ;
+    width: 80px;
     background-color: rgb(0, 213, 255);
 }
 

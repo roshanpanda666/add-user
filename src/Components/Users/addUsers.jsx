@@ -8,6 +8,8 @@ function AddUsers(props) {
     const[number,seNumber]=useState('')
     const[nameafter,updatenameafter]=useState('')
 
+
+
     const onSubmit=(event)=>{
         event.preventDefault()
 
@@ -28,6 +30,8 @@ function AddUsers(props) {
       updateName(title)
       updatenameafter(number)
       
+     
+      
     }
     
 
@@ -36,13 +40,13 @@ function AddUsers(props) {
       <div className="bindsom">
 
         <label className='NameL' htmlFor="text">Name</label>
-        <input type="text" className='TxtForm'onChange={onSubmit} value={title}/>
+        <input type="text" className="TxtForm" onChange={onSubmit} value={title}/>
         
         <label className='NameL2' htmlFor="text">Age(year)</label>
         <input type="number" className='NumberAge'onChange={onSubmitnum} value={number}/>
         
 
-        <button className='finnalbtn' onClick={clicked} >click</button>
+        <button className='finnalbtn' onClick={clicked} >Add user</button>
       </div>
         
 
